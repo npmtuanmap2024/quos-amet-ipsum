@@ -1,18 +1,100 @@
 {
-  "name": "@utilcode/simple-template-advanced",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "name": "@npmtuanmap2024/quos-amet-ipsum",
+  "description": "shell-artist is a package that provides a simplified logging API. It takes some of the best npm packages, ties them together and wraps them around to your favorite Web API i.e. console.",
+  "version": "v1.0.0",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "type": "module",
+  "keywords": [
+    "cli",
+    "console",
+    "terminal",
+    "ansi",
+    "ascii",
+    "align-text",
+    "center-align",
+    "ascii-art",
+    "chalk",
+    "color",
+    "chalk-animation",
+    "gradient-string",
+    "ora",
+    "spinner",
+    "chalk-animation",
+    "cli-animation",
+    "boxen",
+    "emoji",
+    "node-emoji",
+    "figlet"
+  ],
   "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,mjs,cjs}": [
+      "node --max_old_space_size=8192 ./node_modules/eslint/bin/eslint.js --fix --color --cache --quiet"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "dist/"
+  ],
+  "dependencies": {
+    "@npmtuanmap2024/assumenda-officia-consequatur-in": "^v1.0.0",
+    "@npmtuanmap2024/commodi-neque-veritatis": "^v1.0.0",
+    "@npmtuanmap2024/eveniet-consectetur-fuga-magni": "^v1.0.0",
+    "@npmtuanmap2024/expedita-ex-atque": "^v1.0.0",
+    "@npmtuanmap2024/inventore-delectus-corporis": "^v1.0.0",
+    "@npmtuanmap2024/ipsam-tempora-nisi-omnis": "^v1.0.0",
+    "@npmtuanmap2024/maiores-eaque-est-tempora": "^v1.0.0",
+    "@npmtuanmap2024/molestias-sequi-enim": "^v1.0.0",
+    "@npmtuanmap2024/psychic-dollop": "^1.0.0",
+    "@npmtuanmap2024/quos-id-labore": "^v1.0.0",
+    "@npmtuanmap2024/voluptate-placeat-ea": "^v1.0.0",
+    "@npmtuanmap2024/voluptatibus-officia-fugit": "^v1.0.0",
+    "boxen": "^7.1.1",
+    "center-align": "^1.0.1",
+    "chalk": "^4.1.2",
+    "chalk-animation": "^2.0.3",
+    "cli-progress": "^3.12.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "node-emoji": "^2.1.0",
+    "ora": "6.3.1"
+  },
+  "devDependencies": {
+    "@modern-js/module-tools": "2.36.0",
+    "@types/center-align": "^1.0.1",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/cli-progress": "^3.11.5",
+    "@types/figlet": "^1.5.7",
+    "@types/gradient-string": "^1.1.3",
+    "@types/jest": "~29.2.4",
+    "@types/node": "~16.11.7",
+    "@types/react": "~18.0.26",
+    "copyfiles": "^2.4.1",
+    "lint-staged": "~13.1.0",
+    "prettier": "~2.8.1",
+    "rimraf": "~3.0.2",
+    "tsup": "^7.2.0",
+    "typescript": "~5.0.4"
+  },
+  "sideEffects": [],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+    "url": "https://github.com/npmtuanmap2024/quos-amet-ipsum.git"
   },
-  "dependencies": {
-    "axios": "^1.6.8"
-  }
+  "homepage": "https://github.com/npmtuanmap2024/quos-amet-ipsum/#readme",
+  "bugs": {
+    "url": "https://github.com/npmtuanmap2024/quos-amet-ipsum/issues"
+  },
+  "author": "tuan149",
+  "packageManager": "yarn@4.1.1"
 }
